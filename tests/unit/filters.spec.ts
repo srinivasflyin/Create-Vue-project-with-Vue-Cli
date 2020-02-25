@@ -1,4 +1,4 @@
-import { shallowMount, createLocalVue, mount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import Filter from '../../src/components/filters.vue'
 import { countryData, cityData } from '../../src/shared/filterData'
 describe('List component ', () => {
@@ -30,10 +30,8 @@ describe('List component ', () => {
         const getSelectedCitySpy = jest.spyOn(filterComponentWrapper.vm, 'getSelectedCity')
         filterComponentWrapper.vm.$emit('update:filter')
         filterComponentWrapper.vm.getSelectedCity()
+        expect(getSelectedCitySpy).toHaveBeenCalled()
         expect(filterComponentWrapper.emitted()['update:filter']).toBeTruthy()
         expect(filterComponentWrapper.vm.filters.cities[0]).toEqual('perth')
     })
-
-
-
 })

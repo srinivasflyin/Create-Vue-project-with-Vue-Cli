@@ -16,7 +16,7 @@ describe('hotel component testing ', () => {
   let getters;
   let state: State;
   let hotelComponentWrapper;
-  let filters: FilterClass = { countries: [], cities: [] };
+  const filters: FilterClass = { countries: [], cities: [] };
   beforeEach(() => {
     state = {
       hotels: hotelsData

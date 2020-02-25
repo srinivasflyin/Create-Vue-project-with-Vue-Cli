@@ -1,8 +1,6 @@
-import { createLocalVue, shallowMount } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import Home from '../../src/views/Home.vue'
-import Vuex from 'vuex'
-import hotelsData from '../../src/shared/hotelsDummyData'
-import { countryData, cityData } from '../../src/shared/filterData'
+import { countryData } from '../../src/shared/filterData'
 import Filter from '../../src/components/filters.vue'
 
 describe('hotel component testing ', () => {

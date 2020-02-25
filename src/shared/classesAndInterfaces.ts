@@ -4,20 +4,20 @@ export interface FilterClass {
 }
 
 export class City {
-    name: string = ''
-    country: string = ''
-    id: number = 0
+    name = ''
+    country = ''
+    id = 0
 
 }
 
 export class Country {
-    name: string = ''
-    id: number = 0
+    name = ''
+    id = 0
 
 }
 export class HotelObj {
-    country: string = ''
-    city: string = ''
-    imgUrl: string = ''
-    name: string = ''
+    country = ''
+    city = ''
+    imgUrl = ''
+    name = ''
   }
