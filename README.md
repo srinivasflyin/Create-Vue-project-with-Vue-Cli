@@ -5,11 +5,6 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
 ### Compiles and minifies for production
 ```
 npm run build
@@ -49,6 +44,8 @@ Vuex support
 Vue router support
 
 Axios support
+
+
 After completion of steps your project will be ready to run.
 We will use the Vue property decorator to create the Vue components with extending of Vue.
 
@@ -72,3 +69,8 @@ We will use the Vue property decorator to create the Vue components with extendi
             }
         }
         </script>
+        
+### Compiles and hot-reloads for development
+```
+npm run serve
+```        
