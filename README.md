@@ -36,3 +36,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Here i have used Vue cli with typescript support, when your creating Vue project with Vue Cli it shows the list of options to select the 
+
+Typescript
+list of testing libraries
+Vuex support
+Vue router support
+
+
