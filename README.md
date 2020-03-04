@@ -1,4 +1,4 @@
-# Creating Vue Project with Vue Cli
+# Creating Typescript Vue with Vue Cli
 
 ## Project setup
 ```
