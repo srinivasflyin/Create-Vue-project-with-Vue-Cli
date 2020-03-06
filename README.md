@@ -60,7 +60,6 @@ We will use the Vue property decorator to create the Vue components with extendi
         
         <script lang="ts">
         import { Vue, Component, Prop } from 'vue-property-decorator'
-        import {} from '../shared/classesAndInterfaces'
         @Component
         export default class List extends Vue {
             @Prop() public items!: object []
