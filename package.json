@@ -2,7 +2,12 @@
   "name": "vueprj",
   "version": "0.1.0",
   "private": true,
-  "keywords":["vue","node","vue js","axios", "jest", "Vue Router", "vue cli", "cypress", "vue testing"],
+  "keywords":["vue","node","vue js","axios", "jest", "Vue Router", "vue cli", "cypress", "vue testing","vue example","vue sample project","vue example project", "vue tesing", "vue unit testing"],
+  "repository": {
+     "type": "git",
+     "url": "git+https://github.com/srinivasflyin/Create-Vue-project-with-Vue-Cli.git"
+  },
+  "author": "Srinivas S <sriniwas.sunkara95@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
