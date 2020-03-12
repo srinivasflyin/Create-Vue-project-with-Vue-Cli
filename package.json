@@ -2,10 +2,10 @@
   "name": "vueprj",
   "version": "0.1.0",
   "private": true,
-  "keywords":["vue","typescript","vue typescript","vuex", "vue router", "vue example","vue sample project","vue example project", "vue tesing", "vue unit testing"],
+  "keywords":["vue","node","vue js","axios", "jest", "Vue Router", "vue cli", "cypress", "vue testing","vue example","vue sample project","vue example project", "vue tesing", "vue unit testing"],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/srinivasflyin/React-with-Typescript-and-Redux-Thunk.git"
+     "type": "git",
+     "url": "git+https://github.com/srinivasflyin/Create-Vue-project-with-Vue-Cli.git"
   },
   "author": "Srinivas S <sriniwas.sunkara95@gmail.com>",
   "scripts": {
@@ -18,7 +18,6 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    
     "core-js": "^3.6.4",
     "register-service-worker": "^1.6.2",
     "sinon": "^9.0.0",
